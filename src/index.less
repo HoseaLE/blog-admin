@@ -1,0 +1,28 @@
+
+ :global{
+  html, body, #root{
+    height: 100%;
+  }
+  li{
+    list-style: none;
+  }
+  li,ul{
+    margin: 0;
+    padding: 0;
+  }
+}
+.wrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .main{
+    display: flex;
+    flex: 1;
+    .content{
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px 10px 30px 10px;
+    }
+  }
+  
+}
